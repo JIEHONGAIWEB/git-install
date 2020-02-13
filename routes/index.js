@@ -1,5 +1,5 @@
-const router = require('koa-router')()
-
+const router = require('koa-router')();
+const start =  require('./../gitClone');
 router.get('/', async (ctx, next) => {
   await ctx.render('index', {
     title: 'Hello Koa 2!'
@@ -11,8 +11,14 @@ router.get('/string', async (ctx, next) => {
 })
 // 1 通知我需要进行下载文件
 // 2 
-router.get('/download', async (ctx, next) => {
- // (1) 启动
+router.get('/download/name*', async (ctx, next) => {
+let name =ctx.request.url.split('/download/')[1];
+  let URL= 'git@github.com:JIEHONGAIWEB/test-clone.git';
+
+  start(URL,name);
+
+
+ctx.body = 'download...'
 })
 
 module.exports = router
