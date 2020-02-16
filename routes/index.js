@@ -1,9 +1,8 @@
 const router = require('koa-router')();
-const start =  require('./../gitClone');
+const start = require('./../gitClone');
+
 router.get('/', async (ctx, next) => {
-  await ctx.render('index', {
-    title: 'Hello Koa 2!'
-  })
+  ctx.body = 'hello koa2';
 })
 
 router.get('/string', async (ctx, next) => {
@@ -11,11 +10,31 @@ router.get('/string', async (ctx, next) => {
 })
 // 1 通知我需要进行下载文件
 // 2 参数文件名称
-router.get('/download/solution_name*', async (ctx, next) => {
-let name =ctx.request.url.split('/download/')[1];
-  let URL= 'git@github.com:JIEHONGAIWEB/test-clone.git';
-  start(URL,name);
-ctx.body = 'download...'
+router.post('/download', async (ctx, next) => {
+  let body = parseQueryStr(ctx.querystring);
+  if(body.name && body.gitUrl){
+    start(body.gitUrl, body.name);
+    ctx.body = 'download...'
+  }else{
+    ctx.body = 'error query...'
+  }
+  // let URL= 'https://git.openearth.community/jing.zhang/fieldsurvelliance.git';
+  
 })
 
+
+/*POST字符串解析JSON对象*/
+function parseQueryStr(queryStr) {
+  let queryData = {};
+  let queryStrList = queryStr.split('&');
+  console.log(queryStrList);
+  // 利用了ES6提供的forOf，可以找找相关的看看
+  for (let [index, queryStr] of queryStrList.entries()) {
+    // 进行切割
+    let itemList = queryStr.split('=');
+    console.log(itemList);
+    queryData[itemList[0]] = decodeURIComponent(itemList[1]);
+  }
+  return queryData
+}
 module.exports = router

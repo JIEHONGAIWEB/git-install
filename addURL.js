@@ -3,6 +3,7 @@ function update(dirname){
 const app = require('./app');
   
   app.use(require('koa-static')(__dirname + `/public/solution/${dirname}/dist`))
+  
   let addressUrl = __dirname + `/public/solution/${dirname}/dist`;
   let configFile = __dirname + `/public/config/config.json`;
   var fs = require('fs')
@@ -14,7 +15,7 @@ const app = require('./app');
     let configData = JSON.parse(data);
     let tempInfo = {
       "name":dirname,
-      "addressUrl":`/solution/${dirname}/dist`
+      "addressUrl":`http://127.0.0.1:6161/solution/${dirname}/dist`
     }
     configData.list.push(tempInfo);
     let newData = JSON.stringify(configData);
@@ -27,7 +28,9 @@ const app = require('./app');
         }
       })
     }
-  })
+  });
+
+  
 }
 
 module.exports = update;
