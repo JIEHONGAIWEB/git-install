@@ -1,0 +1,87 @@
+[2020-02-17T14:58:24.608] [INFO] default - function gitClone new solution project clone
+[2020-02-17T14:58:24.627] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:00:40.623] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:00:40.962] [INFO] default - restartClone name repeat restart clone
+[2020-02-17T15:00:44.127] [INFO] default - success write undefined
+[2020-02-17T15:02:13.558] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:02:13.561] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:02:16.774] [INFO] default - write config url success
+[2020-02-17T15:02:16.775] [INFO] default - success write undefined
+[2020-02-17T15:02:18.046] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:02:18.063] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:02:18.771] [INFO] default - success write undefined
+[2020-02-17T15:02:18.772] [INFO] default - write config url success
+[2020-02-17T15:19:03.397] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:19:03.409] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:19:06.552] [INFO] default - success write undefined
+[2020-02-17T15:23:50.852] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:23:50.864] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:23:54.428] [INFO] default - success write undefined
+[2020-02-17T15:26:50.911] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:26:50.924] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:26:54.195] [INFO] default - add Url
+[2020-02-17T15:26:54.197] [INFO] default - success write undefined
+[2020-02-17T15:28:53.922] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:28:53.934] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:28:57.133] [INFO] default - add Url
+[2020-02-17T15:28:57.135] [INFO] default - success write undefined
+[2020-02-17T15:30:38.017] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:30:38.030] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:30:41.178] [INFO] default - add Url
+[2020-02-17T15:30:41.180] [INFO] default - success write undefined
+[2020-02-17T15:32:07.615] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:32:07.624] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:32:10.915] [INFO] default - add Url 45
+[2020-02-17T15:32:10.918] [INFO] default - success write undefined
+[2020-02-17T15:32:54.975] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:32:54.984] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:32:58.153] [INFO] default - add Url 45
+[2020-02-17T15:32:58.154] [INFO] default - iconPath http://127.0.0.1:6161/solution/Field_Surveillance1/distassets/solution.svg
+[2020-02-17T15:32:58.154] [INFO] default - name Field Survelliance
+[2020-02-17T15:32:58.156] [INFO] default - success write undefined
+[2020-02-17T15:36:25.093] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:36:25.140] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:36:28.412] [INFO] default - get project config
+[2020-02-17T15:36:28.414] [INFO] default - success write undefined
+[2020-02-17T15:38:49.066] [INFO] default - function gitClone new solution project clone
+[2020-02-17T15:38:49.079] [INFO] default - startExecClone start exec clone url
+[2020-02-17T15:38:52.281] [INFO] default - get project config
+[2020-02-17T15:38:52.283] [INFO] default - set list config
+[2020-02-17T15:38:52.284] [INFO] default - success write undefined
+[2020-02-17T15:38:52.285] [INFO] default - write config url success
+[2020-02-17T23:05:21.297] [INFO] default - function gitClone new solution project clone
+[2020-02-17T23:05:21.311] [INFO] default - startExecClone start exec clone url
+[2020-02-17T23:05:24.837] [INFO] default - get project config
+[2020-02-17T23:05:24.839] [INFO] default - set list config
+[2020-02-17T23:05:24.840] [INFO] default - success write undefined
+[2020-02-17T23:05:24.840] [INFO] default - write config url success
+[2020-02-17T23:05:30.661] [INFO] default - function gitClone new solution project clone
+[2020-02-17T23:05:30.664] [INFO] default - startExecClone start exec clone url
+[2020-02-17T23:05:33.882] [INFO] default - get project config
+[2020-02-17T23:05:33.884] [INFO] default - set list config
+[2020-02-17T23:05:33.885] [INFO] default - success write undefined
+[2020-02-17T23:05:33.885] [INFO] default - write config url success
+[2020-02-17T23:05:34.362] [INFO] default - function gitClone new solution project clone
+[2020-02-17T23:05:34.374] [INFO] default - startExecClone start exec clone url
+[2020-02-17T23:05:37.890] [INFO] default - function gitClone new solution project clone
+[2020-02-17T23:05:37.898] [INFO] default - startExecClone start exec clone url
+[2020-02-17T23:05:38.023] [INFO] default - get project config
+[2020-02-17T23:05:38.025] [INFO] default - set list config
+[2020-02-17T23:05:38.026] [INFO] default - success write undefined
+[2020-02-17T23:05:38.029] [INFO] default - write config url success
+[2020-02-17T23:05:41.212] [INFO] default - get project config
+[2020-02-17T23:05:41.233] [INFO] default - set list config
+[2020-02-17T23:05:41.237] [INFO] default - success write undefined
+[2020-02-17T23:05:41.238] [INFO] default - write config url success
+[2020-02-18T08:04:02.713] [INFO] default - function gitClone new solution project clone
+[2020-02-18T08:04:02.728] [INFO] default - startExecClone start exec clone url
+[2020-02-18T08:04:06.475] [INFO] default - get project config
+[2020-02-18T08:04:06.476] [INFO] default - set list config
+[2020-02-18T08:04:06.477] [INFO] default - success write undefined
+[2020-02-18T08:04:06.478] [INFO] default - write config url success
+[2020-02-18T22:17:06.460] [INFO] default - function gitClone new solution project clone
+[2020-02-18T22:17:06.469] [INFO] default - startExecClone start exec clone url
+[2020-02-18T22:17:10.102] [INFO] default - get project config
+[2020-02-18T22:17:10.103] [INFO] default - set list config
+[2020-02-18T22:17:10.105] [INFO] default - success write undefined
+[2020-02-18T22:17:10.105] [INFO] default - write config url success
