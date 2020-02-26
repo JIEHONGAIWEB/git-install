@@ -22,7 +22,8 @@
     "koa-views": "^6.2.0",
     "koa2-cors": "^2.0.6",
     "log4js": "^6.1.2",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "redis": "^3.0.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

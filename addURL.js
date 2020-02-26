@@ -1,6 +1,6 @@
 
 const fs = require('fs')
-const { LogFile } = require('./tool/log');
+const { LogFile } = require('./util/log');
 
 function update(dirname) {
   const app = require('./app');

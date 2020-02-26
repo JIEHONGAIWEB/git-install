@@ -1,7 +1,7 @@
 const { exec } = require('child_process');
 const update = require('./addURL');
-const { LogFile } = require('./tool/log');
-const { emptyDir, rmEmptyDir } = require('./tool/delete_file');
+const { LogFile } = require('./util/log');
+const { emptyDir, rmEmptyDir } = require('./util/delete_file');
 const fs = require('fs');
 
 function gitClone(url, name) {
